@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>可以成为我的恋人吗？</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <img id="mainImage" src="img/1.jpg" alt="爱心">
+        <h1 id="question">全宇宙最最最可爱的慧想老师，可以成为我的恋人吗？</h1>
+        <div class="buttons">
+            <button id="yes">可以</button>
+            <button id="no">不要</button>
+        </div>
+    </div>
+
+    <div class="yes-screen">
+        <h1 class="yes-text"></h1>
+        <img src="img/happy.jpg" alt="拥抱" class="yes-image">
+    </div>
+
+    <div class="video-screen">
+        <video id="confessionVideo" muted loop preload="metadata" playsinline>
+            <source src="img/love-heart.mp4" type="video/mp4">
+            <source src="img/love-heart.webm" type="video/webm">
+            您的浏览器不支持视频播放。
+        </video>
+        <div class="play-prompt" style="display: none;">
+            点击屏幕播放视频
+        </div>
+    </div>
+
+    <!-- 右下角音乐播放器 -->
+    <div class="music-player">
+        <audio id="music" controls loop>
+            <source src="img/Love.MP3" type="audio/mpeg">
+            您的浏览器不支持音频播放。
+        </audio>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
